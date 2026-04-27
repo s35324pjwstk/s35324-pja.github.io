@@ -15,15 +15,28 @@
     <h2>Zaloguj sie by korzystać z piekielnych płomieni</h2>
     <form action="/action_page.php" method="get">
      <label for="1name">Imię:</label>
-     <input type="text" id="1name" name="1name"><br><br>
+     <input required type="text" id="1name" name="1name"><br><br>
      <label for="nazwis">Nazwisko:</label>
-     <input type="text" id="nazwis" name="nazwis"><br><br>
+     <input required type="text" id="nazwis" name="nazwis"><br><br>
+     <label for="num">Numer konta bankowego:</label>
+     <input required type="text" id="num" name="num"><br><br>
      <input type="submit" value="Gotowe!!!">
-    </form>
+    </form><br>
+
+    <h2>Kim jesteś?</h2>
+    <form action="/action_page.php" method="get">
+  <input type="radio" id="pyt1" name="pytanie" value="HTML">
+  <label for="pyt1">Jestem Demonem</label><br>
+  <input type="radio" id="pyt2" name="pytanie" value="Umarłem" checked="checked">
+  <label for="pyt2">Umarłem</label><br>
+  <input type="radio" id="pyt3" name="pytanie" value="Jestem Aniołem">
+  <label for="pyt3">Jestem Aniołem</label><br><br>
+  <input type="submit" value="Sprawdź">
+    </form><br>
 
 
    
-        <p>Koniec historii, miłego pieczenia się w piekle<3</p>
+        <p>Koniec ankiety, miłego pieczenia się w piekle<3</p>
         <iframe width="804" height="536" src="https://www.youtube.com/embed/6q4JxdS3a9c" 
         title="Tańczący kościotrup" 
         frameborder="0" 
@@ -31,10 +44,10 @@
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen>
         </iframe> 
+
     <footer> 
        <p>Wszystkie prawa zastrzeżone<br>
         Jedynym właścicielem piekła jest Hanna Drozdowska</p>
-
     </footer>
 </body>
 </html>
